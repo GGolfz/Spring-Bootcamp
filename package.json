@@ -1,0 +1,15 @@
+{
+  "name": "spring-bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf build && marp --html index.md -o build/index.html && cp -r images build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^2.2.2"
+  }
+}
